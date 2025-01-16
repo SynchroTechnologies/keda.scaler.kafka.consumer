@@ -1,4 +1,10 @@
-# Prueba de Keda para escalar un proyecto consumidor en función de métricas de Kafka
+# Prueba de escalamiento de containers usando KEDA
+
+## Objetivo
+
+Probar KEDA detectando eventos en colas de Kafka para escalar un consumidor.
+
+---
 
 En este repo hay 4 elementos:
 
