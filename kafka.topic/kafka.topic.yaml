@@ -1,0 +1,12 @@
+apiVersion: kafka.strimzi.io/v1beta2
+kind: KafkaTopic
+metadata:
+  labels:
+    strimzi.io/cluster: cluster
+  name: infra.keda.autoscaler
+  namespace: amq-streams-test
+spec:
+  config: {}
+  partitions: 10
+  replicas: 2
+  topicName: infra.keda.autoscaler
